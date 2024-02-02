@@ -1,0 +1,110 @@
+:host {
+  &::before {
+    content: "";
+    background: var(--primary);
+    display: flex;
+    height: 150px;
+    margin-bottom: -65px;
+    width: 100%;
+  }
+
+  header, aside {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  header {
+    img {
+      border: 5px solid var(--white);
+      border-radius: 100px;
+    }
+  }
+
+  aside {
+    p {
+      text-align: center;
+    }
+
+    nav ul, section {
+      align-items: center;
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      width: 100%;
+    }
+
+    nav {
+      margin: 20px 0;
+
+      ul {
+        li {
+          a {
+            width: 250px;
+          }
+        }
+      }
+    }
+
+    section {
+      figure {
+        height: 77px;
+        width: 335px;
+
+        align-items: center;
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+
+        border: 1px solid var(--white);
+        border-radius: 7px;
+
+        figcaption {
+          a {
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+
+          p {
+            margin: 3px 0;
+          }
+
+          strong {
+            color: var(--primary);
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 750px) {
+    aside, nav, ul, section {
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    aside {
+      nav {
+        ul {
+          li {
+            &,
+            a {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+
+    section {
+      figure: {
+        width: 100%;
+      }
+    }
+  }
+}
