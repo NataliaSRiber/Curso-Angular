@@ -1,31 +1,31 @@
 .btn {
-  align-items: center;
-  box-sizing: border-box;
-  cursor: pointer;
   display: flex;
   justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
   transition: 0.5s;
+  cursor: pointer;
 
   &.btn-primary,
-  &.btn-secondary{
-    border-radius: 7px;
-    font-size: 16px;
+  &.btn-secondary {
     padding: 10px;
+    font-size: 16px;
+    border-radius: 7px;
   }
 
   &.btn-primary {
-    background: var(--primary-010);
     color: var(--black-010);
+    background: var(--primary);
 
     &:hover {
-      background: var(--secondary);
+      background: var(--primary-010);
       color: var(--white);
     }
   }
 
   &.btn-secondary {
-    background: var(--secondary);
     color: var(--white);
+    background: var(--secondary);
 
     &:hover {
       background: var(--secondary-010);
