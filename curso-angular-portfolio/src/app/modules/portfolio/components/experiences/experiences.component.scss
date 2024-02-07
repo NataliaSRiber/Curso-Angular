@@ -14,13 +14,11 @@
   details {
     background: var(--black-010);
     border-radius: 7px;
-    color: var(--white);
     margin-top: 10px;
     overflow: hidden;
 
     article,
     summary {
-      color: var(--grey);
       padding: 10px 20px;
       transition: 500ms;
     }
@@ -49,9 +47,7 @@
           content: url("../../../../../assets//icons/chevron-up.svg");
           margin-top: 5px;
         }
-
-        background: var(--primary);
-        border-radius: 7px 7px 0 0 !important;
+        border-radius: 7px 7px 0 0;
       }
     }
 
