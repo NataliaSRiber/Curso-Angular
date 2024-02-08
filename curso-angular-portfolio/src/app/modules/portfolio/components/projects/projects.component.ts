@@ -20,7 +20,7 @@ export class ProjectsComponent {
       title: 'Vida FullStack',
       width: '100px',
       height: '51px',
-      description: '',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at nibh tortor. Pellentesque rutrum commodo massa eget laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eget sapien sed quam sodales luctus nec vel odio. Aliquam mattis purus nisi, id semper nibh pulvinar eget. Donec et erat ligula. Donec accumsan mi libero, sit amet cursus neque semper nec. Praesent et maximus mi. Aliquam id velit dapibus, elementum mi vitae, sollicitudin mauris. Praesent tincidunt sit amet massa vitae molestie.',
       links: [
         {
           name: 'Conheça o Blog',
