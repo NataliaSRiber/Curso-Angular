@@ -50,5 +50,15 @@
 
   nav {
     display: flex;
+    a {
+      background: var(--primary);
+      color: var(--white);
+      font-weight: 500;
+      text-decoration: none;
+    }
+    a:hover {
+      background: var(--primary-010);
+      text-decoration: none;
+    }
   }
 }
