@@ -15,19 +15,29 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog);
    public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto Vida FullStack',
-      title: 'Vida FullStack',
-      width: '100px',
-      height: '51px',
+      src: 'assets/img/projects/dancegroup.png',
+      alt: 'Site de grupo de Dança',
+      title: 'Grupo de Dança',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at nibh tortor. Pellentesque rutrum commodo massa eget laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eget sapien sed quam sodales luctus nec vel odio. Aliquam mattis purus nisi, id semper nibh pulvinar eget. Donec et erat ligula. Donec accumsan mi libero, sit amet cursus neque semper nec. Praesent et maximus mi. Aliquam id velit dapibus, elementum mi vitae, sollicitudin mauris. Praesent tincidunt sit amet massa vitae molestie.',
       links: [
         {
-          name: 'Conheça o Blog',
-          href: 'https://vidafullstack.com.br',
+          name: 'Conheça o site',
+          href: 'https://dance-group-website-template.vercel.app/',
+        },
+      ]
+    },    {
+      src: 'assets/img/projects/drinkswebsite.png',
+      alt: 'Website com receitas de drinks diversos',
+      title: 'Websites com receitas de drinks diversos',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at nibh tortor. Pellentesque rutrum commodo massa eget laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eget sapien sed quam sodales luctus nec vel odio. Aliquam mattis purus nisi, id semper nibh pulvinar eget. Donec et erat ligula. Donec accumsan mi libero, sit amet cursus neque semper nec. Praesent et maximus mi. Aliquam id velit dapibus, elementum mi vitae, sollicitudin mauris. Praesent tincidunt sit amet massa vitae molestie.',
+      links: [
+        {
+          name: 'Conheça o site',
+          href: 'https://drinks-website.vercel.app/',
         },
       ]
     }
+
    ])
 
    public openDialog(data: IProjects) {
