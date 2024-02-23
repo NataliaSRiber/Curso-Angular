@@ -18,7 +18,7 @@ export class ProjectsComponent {
       src: 'assets/img/projects/dancegroup.png',
       alt: 'Site de grupo de Dança',
       title: 'Grupo de Dança',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at nibh tortor. Pellentesque rutrum commodo massa eget laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eget sapien sed quam sodales luctus nec vel odio. Aliquam mattis purus nisi, id semper nibh pulvinar eget. Donec et erat ligula. Donec accumsan mi libero, sit amet cursus neque semper nec. Praesent et maximus mi. Aliquam id velit dapibus, elementum mi vitae, sollicitudin mauris. Praesent tincidunt sit amet massa vitae molestie.',
+      description: 'O objetivo deste projeto foi criar um design de um website de um grupo de dança que transmitisse uma mensagem profissional e informações sobre a empresa. Não foi utilizada nenhuma api para a aplicação. O site é responsivo para atender diferentes tamanhos de tela. Linguagens: Javascript, Typescript, React, NextJs, Tailwindcss',
       links: [
         {
           name: 'Conheça o site',
@@ -29,7 +29,7 @@ export class ProjectsComponent {
       src: 'assets/img/projects/drinkswebsite.png',
       alt: 'Website com receitas de drinks diversos',
       title: 'Websites com receitas de drinks diversos',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam at nibh tortor. Pellentesque rutrum commodo massa eget laoreet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed eget sapien sed quam sodales luctus nec vel odio. Aliquam mattis purus nisi, id semper nibh pulvinar eget. Donec et erat ligula. Donec accumsan mi libero, sit amet cursus neque semper nec. Praesent et maximus mi. Aliquam id velit dapibus, elementum mi vitae, sollicitudin mauris. Praesent tincidunt sit amet massa vitae molestie.',
+      description: 'Este projeto é um aplicativo web com responsividade que oferece ao usuário receitas de diferentes drinks e cocktails. Para esta aplicação foi utilizada a api pública disponibilizada pelo site The CocktailDb. Buscou-se criar uma aplicação colorida e descontraída, com cores neons, baseado no estilo cyberpunk. Linguagens: Javascript, Typescript, React, NextJs, Tailwindcss.',
       links: [
         {
           name: 'Conheça o site',
