@@ -1,0 +1,57 @@
+:host {
+  margin-top: 25px;
+  padding: 25px 0;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: var(--black-010);
+
+  h2 {
+    margin: 0 0 25px 0;
+    text-align: center;
+  }
+
+  ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    li {
+      flex: 20%;
+      height: 160px;
+      width: 160px;
+
+      button {
+        background: var(--black010);
+        border: 2px solid var(--primary);
+        border-radius: 7px;
+        cursor: pointer;
+        height: 100%;
+        transition: 0.5s;
+        width: 100%;
+
+        &:hover {
+          background: var(--primary);
+        }
+        img {
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 750px) {
+    ul {
+      li {
+        flex: 100%;
+      }
+    }
+  }
+}
